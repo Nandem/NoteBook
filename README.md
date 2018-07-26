@@ -26,9 +26,5 @@
 
 |序号|状态|名称|来源|当前进度|传送门|时间|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|1|正在进行|Rust 程序设计语言|GitHub|泛型、trait 和生命周期|[✈](https://kaisery.github.io/trpl-zh-cn/ch10-00-generics.html#a泛型trait-和生命周期)|2018-7-26 13:54:27|
+|1|正在进行|Rust 程序设计语言|GitHub|10.泛型、trait 和生命周期|[✈](https://kaisery.github.io/trpl-zh-cn/ch10-00-generics.html#a泛型trait-和生命周期)|2018-7-26 13:54:27|
 |2|正在进行|RustPrimer|GitBooks|1.5.1 Rust旅程|[✈](https://rustcc.gitbooks.io/rustprimer/content/quickstart/rust-travel.html)|2018-7-26 13:54:27|
-
-
-
-Rust 程序设计语言
