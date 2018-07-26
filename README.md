@@ -12,7 +12,7 @@
 
 |序号0|状态|名称|来源|当前进度|传送门|时间|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|1|正在<br>进行|LeetCode算法练习|LeetCode|算法基础<br>数组|[✈](https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/1/array/29/)|2018-7-26 11:07:14|
+|1|正在<br>进行|算法练习|LeetCode|算法基础<br>数组|[✈](https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/1/array/29/)|2018-7-26 11:07:14|
 
 ## 底层
 > 一些硬件相关知识
