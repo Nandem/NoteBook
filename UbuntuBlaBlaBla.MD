@@ -13,7 +13,7 @@ sudo update-manager -c -d
 2. 系统设置->Region & Language->Manage Installed Languages->Keyboard input method system->fcitx。
 3. （可选）此时重启系统发现已经有默认的中文输入法。但想要安装sougou的话需要去官网下载安装包并双击安装，之后点击小键盘选择搜狗输入法。
 
-## 使用apt-get安装oracle-jdk
+## 命令行安装oracle-jdk
 ``` bash
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
