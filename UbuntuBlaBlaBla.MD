@@ -30,6 +30,17 @@ sudo snap install intellij-idea-community --classic --edge
 sudo snap install intellij-idea-ultimate --classic --edge
 ```
 
+### 安装Android Studio
+下载[Android Studio](https://developer.android.google.cn/studio/)
+移动到软件文件夹
+```bash
+sudo mv android-studio-ide-xxx.xxxxxxx-xxx.zip /opt
+```
+解压
+```bash
+sudo unzip android-studio-ide-xxx.xxxxxxx-xxx.zip
+```
+
 ### 安装CLion
 #### 先导工作
 ```bash
