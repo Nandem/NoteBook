@@ -1,3 +1,9 @@
+### 查看系统架构
+```bash
+uname -a #几乎所有 Linux/Unix 系统
+dpkg --print-architecture #只适用于基于 Debian 和 Ubuntu 的 Linux 发行版
+```
+
 ### 启动图形界面以便设置软件源
 ``` bash
 sudo update-manager -c -d
