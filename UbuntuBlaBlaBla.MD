@@ -11,7 +11,7 @@ sudo update-manager -c -d
 
 ### shadowsocks配置
 1. 下载github上的[ShadowSocks](https://github.com/shadowsocks/shadowsocks-qt5)，格式为APPImage，右键->properties->permissions->Allow executing file as program，双击即可运行。
-2. 设置系统代理为Manual，Socks Host为127.0.0.1:1080（1080为ss中设置的本地端口号）。
+2. 设置系统代理为Manual，Socks Host为127.0.0.1:1080（1080为ss中设置的本地端口号），其余默认。
 3. 重启生效。
 
 ### 查看系统架构类型
