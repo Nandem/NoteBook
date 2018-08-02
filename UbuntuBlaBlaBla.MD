@@ -8,6 +8,12 @@ sudo update-manager -c -d
 2. 设置系统代理为Manual，Socks Host为127.0.0.1:1080（1080为ss中设置的本地端口号）。
 3. 重启生效。
 
+### 查看系统架构类型
+```bash
+uname -a #几乎所有 Linux/Unix 系统适用
+dpkg --print-architecture #只适用于基于 Debian 和 Ubuntu 的 Linux 发行版
+```
+
 ### 中文输入法
 1. Ctrl + Alt + T打开终端，输入fcitx检查是否安装fcitx，若没有则根据提示进行安装，否则进行2。
 2. 系统设置->Region & Language->Manage Installed Languages->Keyboard input method system->fcitx。
