@@ -87,5 +87,5 @@ cd clion-xxxx.x/bin/
 sudo vim /etc/hosts
 ```
 加入“0.0.0.0 account.jetbrains.com”
-保存（若完了sudo打开导致权限不足又不想sudo重新打开，使用“**:w !sudo tee %**”，注意空格）
+保存（若忘了sudo打开导致权限不足又不想sudo重新打开，使用“**:w !sudo tee %**”，注意空格）
 百度搜Idea注册码，复制粘贴即可。
