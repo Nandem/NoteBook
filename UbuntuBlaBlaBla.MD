@@ -100,3 +100,5 @@ sudo ln -s /opt/node-vx.xx.x-linex-64/bin/node /usr/local/bin/node #node命令
 sudo ln -s /opt/node-vx.xx.x-linex-64/bin/npm /usr/local/bin/npm #npm命令
 ```
 验证是否安装成功，分别输入`node -v`和`npm -v`
+#### 设置淘宝镜像
+终端输入`npm install -g cnpm --registry=https://registry.npm.taobao.org`
