@@ -89,3 +89,14 @@ sudo vim /etc/hosts
 加入“0.0.0.0 account.jetbrains.com”
 保存（若忘了sudo打开导致权限不足又不想sudo重新打开，使用“**:w !sudo tee %**”，注意空格）
 百度搜Idea注册码，复制粘贴即可。
+
+### 安装Node.js
+1. 下载[Node.js](https://nodejs.org/en/)
+2. 移动到自己的软件文件夹，如`sudo mv node-vx.xx.x-linex-64.tar.xz`
+3. 解压`sudo tar -xJf node-vx.xx.x-linex-64.tar.xz`
+4. 安装npm和node命令到系统命令
+``` bash
+sudo ln -s /opt/node-vx.xx.x-linex-64/bin/node /usr/local/bin/node #node命令
+sudo ln -s /opt/node-vx.xx.x-linex-64/bin/npm /usr/local/bin/npm #npm命令
+```
+验证是否安装成功，分别输入`node -v`和`npm -v`
