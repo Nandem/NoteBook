@@ -54,7 +54,7 @@ sudo unzip android-studio-ide-xxx.xxxxxxx-xxx.zip
 ```
 
 # 安装CLion
-## 先导工作
+#### 先导工作
 ```bash
 sudo apt-get update
 sudo apt-get install g++ ##安装g++编译器
