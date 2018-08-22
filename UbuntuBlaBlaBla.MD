@@ -102,3 +102,10 @@ sudo ln -s /opt/node-vx.xx.x-linex-64/bin/npm /usr/local/bin/npm #npm命令
 验证是否安装成功，分别输入`node -v`和`npm -v`
 #### 设置淘宝镜像
 终端输入`npm install -g cnpm --registry=https://registry.npm.taobao.org`
+
+# 安装Gradle
+#### 使用package manager（这里选择SDKMAN!）
+- 打开终端输入`$ curl -s "https://get.sdkman.io" | bash`
+- 输入`sdk version`查看是否成功
+- 重新打开终端输入`sdk install gradle x.x`即可
+> 有多种安装方式，我这里选择我认为比较简洁和舒服的方式，肯定不唯一
