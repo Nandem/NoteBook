@@ -120,11 +120,12 @@ sudo ln -s /opt/Postman/Postman /usr/bin/postman #加入环境变量
 > 这里不制作启动项了，直接通过终端输入`postman`即可启动
 
 # 安装MongoDB
+#### 安装
 ```shell
-sudo apt update
-sudo apt install -y mongodb
+sudo apt update #更新源
+sudo apt install -y mongodb #ubuntu仓库里有最新稳定版MongoDB，所以可以直接命令行安装
 ```
-#### 管理MongoDB
+#### 管理
 ```shell
 sudo systemctl status mongodb #查看mogodb状态
 sudo systemctl stop mongodb #停止服务
