@@ -109,3 +109,11 @@ sudo ln -s /opt/node-vx.xx.x-linex-64/bin/npm /usr/local/bin/npm #npm命令
 - 输入`sdk version`查看是否成功
 - 重新打开终端输入`sdk install gradle x.x`即可
 > 有多种安装方式，我这里选择我认为比较简洁和舒服的方式，肯定不唯一
+
+# 安装Postman
+``` shell
+wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz #命令行下载最新版postman
+sudo mv postman.tar.gz /opt #移动至软件文件夹
+sudo tar -xzf postman.tar.gz #解压
+sudo ln -s /opt/Postman/Postman /usr/bin/postman #加入环境变量
+```
