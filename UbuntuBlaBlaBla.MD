@@ -134,5 +134,5 @@ sudo systemctl restart mongodb #重启服务
 sudo systemctl disable mongodb #禁止自动启动
 sudo systemctl enable mongodb #启用自动启动
 ```
-> systemctl 为systemd命令，Systemd 是 Linux 系统工具，用来启动守护进程，已成为大多数发行版的标准配置。参考[这篇教程](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html)
+> systemctl 为Systemd命令，Systemd 是 Linux 系统工具，用来启动守护进程，已成为大多数发行版的标准配置。参考[这篇教程](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html)
 和[这篇文章](https://huur.cn/course/yw/1712.html)
