@@ -117,3 +117,4 @@ sudo mv postman.tar.gz /opt #移动至软件文件夹
 sudo tar -xzf postman.tar.gz #解压
 sudo ln -s /opt/Postman/Postman /usr/bin/postman #加入环境变量
 ```
+> 这里不制作启动项了，直接通过终端输入`postman`即可启动
