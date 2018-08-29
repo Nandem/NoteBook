@@ -136,3 +136,33 @@ sudo systemctl enable mongodb #启用自动启动
 ```
 > systemctl 为Systemd命令，Systemd 是 Linux 系统工具，用来启动守护进程，已成为大多数发行版的标准配置。参考[这篇教程](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html)
 和[这篇文章](https://huur.cn/course/yw/1712.html)
+
+#### 基本操作
+- 添加管理员账户
+``` shell
+use admin #进入admin数据库
+
+db.createUser(
+  {
+    user: "root",
+    pwd: "root2333",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+  }
+)
+```
+> role说明
+read：允许用户读取指定数据库
+readWrite：允许用户读写指定数据库
+dbAdmin：允许用户在指定数据库中执行管理函数，如索引创建、删除，查看统计或访问system.profile
+userAdmin：允许用户向system.users集合写入，可以找指定数据库里创建、删除和管理用户
+clusterAdmin：只在admin数据库中可用，赋予用户所有分片和复制集相关函数的管理权限。
+readAnyDatabase：只在admin数据库中可用，赋予用户所有数据库的读权限
+readWriteAnyDatabase：只在admin数据库中可用，赋予用户所有数据库的读写权限
+userAdminAnyDatabase：只在admin数据库中可用，赋予用户所有数据库的userAdmin权限
+dbAdminAnyDatabase：只在admin数据库中可用，赋予用户所有数据库的dbAdmin权限。
+root：只在admin数据库中可用。超级账号，超级权限
+
+- 修改用户密码
+``` shell
+db.changeUserPassword('tank2','test');
+```
