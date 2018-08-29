@@ -166,3 +166,7 @@ db.createUser(
 ``` shell
 db.changeUserPassword('tank2','test');
 ```
+##### 创建或者使用数据库
+``` shell
+use test #有test数据库则切换至test，否则创建并切换至test
+```
