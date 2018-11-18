@@ -7,3 +7,8 @@
 - 输入`convert gpt`转成gpt格式
 - 退出重启，应该就可以了
 > diskpart用处很多，比如格式化硬盘和U盘等。最zhuangbility的就是通过它来分区，而不是使用各种分区软件
+
+# 安装CLion
+- 下载安装Clion
+- 下载Mingw-64 installer
+- 配置
