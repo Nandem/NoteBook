@@ -12,3 +12,7 @@
 - 下载安装Clion
 - 下载Mingw-64 installer
 - 配置
+
+# NodeJS无法安装依赖
+## 可能原因：
+- 权限
