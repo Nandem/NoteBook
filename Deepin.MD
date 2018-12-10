@@ -1,3 +1,14 @@
+# Deepin安装
+## 进入系统后一直加载
+### 第一次安装临时解决方案
+- 开机后进入选择页面，不要enter，按e
+- 在倒数第二行添加`nouveau.modeset=0`
+- 按F10
+### 进入系统后暂时永久性的解决方案
+- ctrl + alt + t打开终端界面，输入`sudo gedit /boot/grub/grub.cfg`
+- 按ctrl + F找到第一个quiet，在其后输入`nouveau.modeset=0`，保存退出
+- 重启查看效果
+
 # Deepin安装JDK
 ## 添加Java-8-Oracle源，复制到终端运行
 ```
