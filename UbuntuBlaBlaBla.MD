@@ -103,6 +103,13 @@ sudo ln -s /opt/node-vx.xx.x-linex-64/bin/npm /usr/local/bin/npm #npm命令
 #### 设置淘宝镜像
 终端输入`npm install -g cnpm --registry=https://registry.npm.taobao.org`
 
+#### 安装nvm
+``` bash
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+
+source ~/.bashrc
+```
+
 # 安装Gradle
 #### 使用package manager（这里选择SDKMAN!）
 - 打开终端输入`$ curl -s "https://get.sdkman.io" | bash`
