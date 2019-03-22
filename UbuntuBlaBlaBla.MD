@@ -105,7 +105,7 @@ sudo ln -s /opt/node-vx.xx.x-linex-64/bin/npm /usr/local/bin/npm #npm命令
 
 #### 安装nvm
 ``` bash
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
 source ~/.bashrc
 ```
