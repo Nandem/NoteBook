@@ -10,7 +10,7 @@ git branch xxx # 创建xxx后并不会切换到该分支
 
 ### 创建分支并推送到远程
 ```bash
-git checkout -b xxx
+git checkout -b xxx # 相当于git branch xxx和git checkout xxx的合体
 git push origin xxx(本地分支):xxx(远程分支)
 ```
 
