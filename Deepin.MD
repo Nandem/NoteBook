@@ -27,3 +27,8 @@ sudo apt-get update
 ```
 sudo apt-get install oracle-java8-installer
 ```
+# 错误处理
+## 安装软件或者检查系统升级出现Dependency error
+```
+sudo apt full-upgrade
+```
