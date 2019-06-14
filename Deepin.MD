@@ -32,3 +32,10 @@ sudo apt-get install oracle-java8-installer
 ```
 sudo apt full-upgrade
 ```
+
+# 进程管理
+## 查看指定端口进程
+```netstat -nap | grep xxx(端口号)```
+
+## 结束进程
+```kill xxx(pid)
