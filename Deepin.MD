@@ -38,4 +38,4 @@ sudo apt full-upgrade
 ```netstat -nap | grep xxx(端口号)```
 
 ## 结束进程
-```kill xxx(pid)
+```kill xxx(pid)```
