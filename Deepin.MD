@@ -39,3 +39,30 @@ sudo apt full-upgrade
 
 ## 结束进程
 ```kill xxx(pid)```
+
+# 安装Openresty
+## (下载最新源码包)[https://openresty.org/cn/download.html]
+```
+wget https://openresty.org/download/openresty-x.xx.x.x.tar.gz
+```
+## 解压源码包
+```
+tar -xzvf openresty-x.xx.x.x.tar.gz
+```
+
+## 配置
+```
+# 进入openresty-x.xx.x.x
+cd openresty-x.xx.x.x
+
+# 配置
+./configure --prefix=/opt/openresty \ # 安装路径
+            --with-luajit # 添加lua即时编译
+            # 其他配置自行查阅
+```
+
+# 安装
+```
+make
+make install
+```
