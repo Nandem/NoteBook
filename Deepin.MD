@@ -41,7 +41,7 @@ sudo apt full-upgrade
 ```kill xxx(pid)```
 
 # 安装Openresty
-## (下载最新源码包)[https://openresty.org/cn/download.html]
+## [下载最新源码包](https://openresty.org/cn/download.html)
 ```
 wget https://openresty.org/download/openresty-x.xx.x.x.tar.gz
 ```
