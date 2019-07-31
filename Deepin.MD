@@ -66,3 +66,15 @@ cd openresty-x.xx.x.x
 make
 make install
 ```
+
+# Docker
+### 创建docker组
+`sudo groupadd docker`
+### 将用户添加到docker组里
+```
+sudo usermod -aG docker $USER  # 这里的$USER是你自己的用户名
+awk -F ":" '/docker/{print $4}' /etc/group # 查看是否添加成功
+```
+### 注销你的账户,以便让你的用户权限生效
+### 测试你的用户权限是否生效
+`docker -v`
