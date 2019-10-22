@@ -9,6 +9,13 @@
 - 按ctrl + F找到第一个quiet，在其后输入`nouveau.modeset=0`，保存退出
 - 重启查看效果
 
+## dde-dock相关
+### dde-dock异常
+```bash
+# 强行重启dde-dock
+sudo killall dde-dock
+```
+
 # Deepin安装JDK
 ## 添加Java-8-Oracle源，复制到终端运行
 ```
