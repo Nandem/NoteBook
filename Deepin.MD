@@ -84,7 +84,7 @@ awk -F ":" '/docker/{print $4}' /etc/group # 查看是否添加成功
 ```
 ### 注销你的账户,以便让你的用户权限生效
 ### 测试你的用户权限是否生效
-`docker -v`
+```docker -v```
 
 # 文件管理器与vscode快捷键冲突
-xdg-mime default dde-file-manager.desktop inode/directory
+```xdg-mime default dde-file-manager.desktop inode/directory```
