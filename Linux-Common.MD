@@ -29,3 +29,9 @@ PATH=$PATH:/opt/node-vx.x.x-linux-x64/bin
 # 终端直接运行
 export PATH=$PATH:/opt/node-vx.x.x-linux-x64/bin
 ```
+
+# 软件源
+## 管理
+```
+sudo vim /etc/apt/sources.list　　
+```
