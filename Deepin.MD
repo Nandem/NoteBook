@@ -101,12 +101,7 @@ awk -F ":" '/docker/{print $4}' /etc/group # 查看是否添加成功
 
 # VirtualBox
 ## 安装
-1. 添加源
-```sudo vim /etc/apt/sources.list```
-添加
-```
-deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian stretch contrib
-```
+1.执行```sudo vim /etc/apt/sources.list```添加源```deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian 发行版代号 contrib```
 2. 执行```wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -```和```wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -```
 3. 执行```sudo apt-get update```
 4. 执行```sudo apt-get install virtualbox-x.x```安装相应版本
