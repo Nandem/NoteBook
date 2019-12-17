@@ -105,4 +105,5 @@ awk -F ":" '/docker/{print $4}' /etc/group # 查看是否添加成功
 2. 执行```wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -```和```wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -```
 3. 执行```sudo apt-get update```
 4. 执行```sudo apt-get install virtualbox-x.x```安装相应版本
+
 **后续升级只需执行最后一步即可**
