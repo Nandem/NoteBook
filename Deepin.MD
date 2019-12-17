@@ -88,3 +88,26 @@ awk -F ":" '/docker/{print $4}' /etc/group # 查看是否添加成功
 
 # 文件管理器与vscode快捷键冲突
 ```xdg-mime default dde-file-manager.desktop inode/directory```
+
+# Vim
+|操作|命令|
+|:---:|:---:|
+|复制整行|yy|
+|从光标处粘贴|pp|
+|复制内容到系统粘贴板|"+y|
+|从系统粘贴板粘贴内容|"+p|
+|删除整行|dd|
+> 操作系统粘贴板需要查看(输入```:version```命令)当前vim是否支持相应的寄存器，不支持的话需要```sudo apt-get install vim-gnome```
+
+# VirtualBox
+## 安装
+1. 添加源
+```sudo vim /etc/apt/sources.list```
+添加
+```
+deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian stretch contrib
+```
+2. 执行```wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -```和```wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -```
+3. 执行```sudo apt-get update```
+4. 执行```sudo apt-get install virtualbox-x.x```安装相应版本
+**后续升级只需执行最后一步即可**
