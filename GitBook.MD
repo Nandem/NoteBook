@@ -35,3 +35,34 @@ git branch -m oldxxx newxxx
 ```bash
 git branch -vv 
 ```
+
+# 本地库直接关联远程库并提交
+初始化本地项目为git仓库
+```bash
+git init
+```
+添加所有需要提交的项目
+```bash
+git add .
+```
+初始提交
+```bash
+git commit -m "xxx"
+```
+添加远程库
+```bash
+git add remote origin(不用管别的就写这个) 仓库地址
+```
+fetch远程库
+```bash
+git fetch origin
+```
+pull相关分支
+```bash
+git pull origin 分支 #需要--allow-unrelated-histories
+```
+push相关分支
+```bash
+git push origin
+```
+> 可能会报错，但一般会直接在命令行进行提示，照着做即可
