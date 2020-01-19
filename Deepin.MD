@@ -113,5 +113,5 @@ awk -F ":" '/docker/{print $4}' /etc/group # 查看是否添加成功
 ## 共享文件夹问题
 ### 内部系统无权访问共享文件夹
 ```bash
-sudo usermod -a -G vboxsf 用户名
+sudo usermod -aG vboxsf 用户名
 ```
