@@ -109,3 +109,9 @@ awk -F ":" '/docker/{print $4}' /etc/group # 查看是否添加成功
 4. 执行```sudo apt-get install virtualbox-x.x```安装相应版本
 
 **后续升级只需执行最后一步即可**
+
+## 共享文件夹问题
+### 内部系统无权访问共享文件夹
+```bash
+sudo usermod -a -G vboxsf 用户名
+```
