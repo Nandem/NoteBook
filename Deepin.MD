@@ -125,3 +125,4 @@ sudo apt-get install deepin.com.qq.im
 ```
 sudo apt-get install deepin.com.wechat
 ```
+> 需要注意的是，通常情况下**微信**和**QQ**在应用商店都是能够搜到的，但某些情况下会无法搜索到相应应用，此时可以使用上述方式进行安装．
