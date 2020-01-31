@@ -115,3 +115,13 @@ awk -F ":" '/docker/{print $4}' /etc/group # 查看是否添加成功
 ```bash
 sudo usermod -aG vboxsf 用户名
 ```
+
+# 常用软件安装
+**安装QQ**
+```
+sudo apt-get install deepin.com.qq.im
+```
+**安装微信**
+```
+sudo apt-get install deepin.com.wechat
+```
