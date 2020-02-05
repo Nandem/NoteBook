@@ -115,6 +115,7 @@ awk -F ":" '/docker/{print $4}' /etc/group # 查看是否添加成功
 ```bash
 sudo usermod -aG vboxsf 用户名
 ```
+> 若仍然提示无权限，请确定你增强工具是否已经安装
 
 # 常用软件安装
 **安装QQ**
