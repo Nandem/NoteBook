@@ -127,3 +127,20 @@ sudo apt-get install deepin.com.qq.im
 sudo apt-get install deepin.com.wechat
 ```
 > 需要注意的是，通常情况下**微信**和**QQ**在应用商店都是能够搜到的，但某些情况下会无法搜索到相应应用，此时可以使用上述方式进行安装．
+
+# 更新依赖库
+## deepin 15.11
+### GLIBC
+15.11中的GLIBC版本最高为GLIBC_2.24，需要更高版本的GLIBC可执行如下操作
+```bash
+# 添加包含高版本GLIBC的源，以debian buster为例
+sudo vim /etc/apt/sources.list.d/buster.list
+# 添加此内容 deb http://ftp.debian.org/debian sid main 后执行如下命令
+sudo apt update
+# 不需要 upgrade 直接执行如下命令
+sudo apt-get -t buster install libc6 libc6-dev libc6-dbg
+# 查看升级后的版本
+strings /lib/x86_64-linux-gnu/libc.so.6 | grep GLIBC
+# 升级完成后移除相应源
+sudo rm /etc/apt/sources.list.d/buster.list 
+```
