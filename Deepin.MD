@@ -135,7 +135,7 @@ sudo apt-get install deepin.com.wechat
 ```bash
 # 添加包含高版本GLIBC的源，以debian buster为例
 sudo vim /etc/apt/sources.list.d/buster.list
-# 添加此内容 deb http://ftp.debian.org/debian sid main 后执行如下命令
+# 添加此内容 deb http://ftp.debian.org/debian buster main 后执行如下命令
 sudo apt update
 # 不需要 upgrade 直接执行如下命令
 sudo apt-get -t buster install libc6 libc6-dev libc6-dbg
