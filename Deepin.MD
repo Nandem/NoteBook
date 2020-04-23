@@ -144,3 +144,22 @@ strings /lib/x86_64-linux-gnu/libc.so.6 | grep GLIBC
 # 升级完成后移除相应源
 sudo rm /etc/apt/sources.list.d/buster.list 
 ```
+# 路径
+## 缩短显示路径
+vim打开```~/.bashrc```，找到如下代码：
+```bash
+if [ "$color_prompt" = yes ]; then
+  PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+  PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+```
+修改为：
+```bash
+if [ "$color_prompt" = yes ]; then
+  PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
+else
+  PS1='${debian_chroot:+($debian_chroot)}\u@\h:\W\$ '
+fi
+```
+> 将```\w```修改为```\W```
