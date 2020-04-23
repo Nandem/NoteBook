@@ -6,5 +6,7 @@
 # 系统命令
 |功能|命令|说明|
 |:---:|:---|:---:|
-|查看当前上下文|```kubectl config current-context```||
+|查看当前上下文|```kubectl config view```|无|
+|新增上下文|```kubectl config set-context <context_name> --namespace=<namespace_in_context> --cluster=<cluster_name> --user=<user_name>```|无|
+|切换上下文|```kubectl config use-context <context_name>```|```<context_name>```: 上下文名称|
 |修改默认命名空间|```kubectl config set-context --current --namespace=<namespace_name>```|```--current```: 设置当前上下文默认命名空间|
